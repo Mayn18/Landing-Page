@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Roboto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #FFFF;
+    align-items: center;
+    font-family: Roboto;
+    padding: 0 20%;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #FFFF;
+    justify-content: center;
+    font-family: Roboto;
+}
+
+.header h1{
+    color: #FFFF;
+    font-size: 24px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #FFFF;
+    list-style: none;
+}
+
+li{
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.heroSection{
+    display: flex;
+    color: #FFFF;
+    background-color: #1F2937;
+    padding: 50px 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: flex-start;
+}
+
+.infoCard h3{
+    margin: 0;
+    font-size: 42px;
+    color: #F9FAF8;
+}
+
+.infoCard p{
+    font-size: 13px;
+}
+
+.signUpBtn{
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 700;
+
+}
+
+.op1{
+    max-width: 500px;
+    max-height: 250px;
+}
+
+.quoteSection{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 26px;
+    padding: 50px 20%;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    gap: 10px;
+}
+
+.quoteBy{
+    align-self: flex-end;
+    font-weight: 500;
+}
+
+.infoSection{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.infoSection h4{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.cardGroup{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+.subtext{
+    display: flex;
+    flex-direction: column
+}
+
+.profileImg{
+    max-width: 200px;
+    max-height: 200px;
+    border: 4px solid #3882f6;
+}
+
+.signUpCard{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainTex{
+    display: flex;
+    margin: 50px 250px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 20px 100px;
+    color: #F9FAF8;
+    border-radius: 8px;
+    font-size: 12px;
+    gap: 20px;
+}
+
+.mainTex span{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainTex h5{
+    margin: 0;
+    font-size: 24px;
+}
